@@ -1,0 +1,68 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Hamada",
+      "email": "hamada@email.com",
+      "address": "123 st",
+      "phone": "01111111111",
+      "grade": "C+"
+    },
+    {
+      "name": "Ahmed",
+      "email": "ahmed@email.com",
+      "address": "456 st",
+      "phone": "01222222222",
+      "grade": "A-",
+      "id": 2
+    },
+    {
+      "name": "Sara",
+      "email": "sara@email.com",
+      "address": "789 st",
+      "phone": "01233333333",
+      "grade": "B",
+      "id": 3
+    },
+    {
+      "name": "Layla",
+      "email": "layla2@email.com",
+      "address": "101112 st",
+      "phone": "01244444444",
+      "grade": "C-",
+      "id": 4
+    },
+    {
+      "name": "Omar",
+      "email": "omar@email.com",
+      "address": "131415 st",
+      "phone": "01555555555",
+      "grade": "B+",
+      "id": 5
+    },
+    {
+      "name": "Zeinab",
+      "email": "zeinab@email.com",
+      "address": "161718 st",
+      "phone": "01166666666",
+      "grade": "A",
+      "id": 6
+    },
+    {
+      "name": "koko",
+      "email": "koko@email.com",
+      "address": "123 st",
+      "phone": "01222222222",
+      "grade": "B",
+      "id": 7
+    },
+    {
+      "name": "emad",
+      "email": "emad@email.com",
+      "address": "123 st",
+      "phone": "01200000000",
+      "grade": "A-",
+      "id": 8
+    }
+  ]
+}

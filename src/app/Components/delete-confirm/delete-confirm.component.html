@@ -1,0 +1,12 @@
+<div class="w-50 m-auto bg-white rounded-4">
+  <div class="border border-bottom-4 alert alert-danger">
+    Student deleting confirmation!!
+  </div>
+    <div *ngIf="Student" class="border border-bottom-4 text-black alert alert-light fs-5">
+      Are you sure you want to delete Student: '{{Student.name}}' ?!!
+    </div>
+    <div class="d-flex justify-content-evenly">
+      <button routerLink="/students" (click)="deleteStudent()" class="btn btn-danger mb-3 w-25">Delete!!</button>
+      <button routerLink="/students" class="btn btn-secondary mb-3 w-25">Cancel</button>
+    </div>
+</div>

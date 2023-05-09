@@ -1,0 +1,24 @@
+<table class="table table-primary table-striped w-75 m-auto">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Grade</th>
+        <th scope="col">Details</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of students">
+        <td>{{s.id}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.email}}</td>
+        <td>{{s.grade}}</td>
+        <td><button routerLink="/students/{{s.id}}" class="btn btn-info">Details</button></td>
+        <td><button routerLink="/update/{{s.id}}" class="btn btn-warning">Update</button></td>
+        <td><button routerLink="/delete/{{s.id}}" class="btn btn-danger">Delete!!</button></td>
+      </tr>
+    </tbody>
+</table>

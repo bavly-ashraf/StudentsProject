@@ -1,0 +1,19 @@
+<div *ngIf="Student" class="card m-auto w-50">
+  <div class="card-body">
+    <h5 class="card-title text-center">Student Details</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Name</h6>
+    <p class="card-text">{{Student.name}}</p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Email</h6>
+    <p class="card-text">{{Student.email}}</p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Address</h6>
+    <p class="card-text">{{Student.address}}</p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Phone</h6>
+    <p class="card-text">{{Student.phone}}</p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Grade</h6>
+    <p class="card-text">{{Student.grade}}</p>
+    <div class="d-flex justify-content-evenly">
+      <button routerLink="/update/{{Student.id}}" class="btn btn-warning w-25">Update</button>
+      <button routerLink="/delete/{{Student.id}}" class="btn btn-danger w-25">Delete!!</button>
+    </div>
+  </div>
+</div>

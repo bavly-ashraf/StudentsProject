@@ -1,0 +1,5 @@
+.customDiv{
+  background-image: url("src/assets/Images/background2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
