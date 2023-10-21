@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class SServiceService {
-private readonly baseUrl = 'http://localhost:3000/students';
+private readonly baseUrl = 'https://my-json-server.typicode.com/bavly-ashraf/StudentsProject/students';
   constructor(private myClient:HttpClient) { }
   GetAllStudents(){
     return this.myClient.get(this.baseUrl);
